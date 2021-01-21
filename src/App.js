@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
       <Navbar/>
         <Switch>
-          <Route component={MainScreen} path="/" exact/>
+          <Route component={MainScreen} path="/UsersDemo" exact/>
           <Route component={FeaturesScreen} path="/Features" exact/>
           <Route component={Login} path="/Login" exact/>
           <Route component={Register} path="/Register" exact/>

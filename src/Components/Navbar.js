@@ -10,7 +10,7 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link className="nav-item nav-link" to="/">Home</Link>
+                    <Link className="nav-item nav-link" to="/UsersDemo">Home</Link>
                     <Link className="nav-item nav-link" to="/Features">Features</Link>
                 </div>
                 <div className="navbar-nav">
