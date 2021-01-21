@@ -7,7 +7,7 @@ function RegisterScreen() {
     const [msgs, setMsgs] = useState();
 
     const postLogin = (username, password) => {
-        axios.post('http://localhost:5000/register', {username, password})
+        axios.post('https://adaptable-second-saguaro.glitch.me/register', {username, password})
         .then(response => response.data.msg)
         .then(msg => setMsgs(msg));
     }    

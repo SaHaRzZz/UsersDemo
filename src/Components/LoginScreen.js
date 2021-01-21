@@ -8,7 +8,7 @@ function LoginScreen() {
     const [status, setStatus] = useState('Not connected');
 
     const postLogin = (username, password) => {
-        axios.post('http://localhost:5000/login', {username, password})
+        axios.post('https://adaptable-second-saguaro.glitch.me/login', {username, password})
         .then(response => response.data.msg)
         .then(msg => msg == 'Successfully connected!' ? [setStatus('Connected!'), setMsgs()] : [setStatus('Not connected'), setMsgs(msg)]);
     }    
